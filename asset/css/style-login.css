@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background: url('../img/bg.jpg');
+   
+}
+.header {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 2em;
+}
+.header img {
+    display: block;
+    margin: auto;
+    width: 220px;
+}
+.content {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 0 #ccc;
+    width: 420px;
+    height: 380px;
+    margin: auto;
+    margin-top: 180px;
+}
+.bt {
+    width: 380px;
+    margin-bottom: 10px;
+}
+.ip {
+    border: none;
+    border-bottom: solid 1px #ccc;
+    width: 380px;
+    margin-bottom: 2em;
+    transition: .5s;
+}
+.ip .focus {
+    border-bottom: solid 5px #ccc;
+}
+
+.btn-brown {
+    font-weight: bold;
+    background: url('../img/bg.jpg');
+    color: #333;
+}
+
+.btn-brown:hover {
+    font-weight: bold;
+    background: url('../img/top.png');
+    color: #fff;
+}

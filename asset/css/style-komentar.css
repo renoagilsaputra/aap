@@ -1,0 +1,9 @@
+.kom:nth-child(even) {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-komentar {
+    background: #fff;
+}

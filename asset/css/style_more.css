@@ -1,0 +1,57 @@
+.judul {
+    border-bottom: solid 2px #333;
+    padding-bottom: 10px;
+}
+
+.more-img img {
+    width: 100%;
+    display: block;
+}
+.cont {
+    padding-top: 1em;
+}
+/* Label */
+.lb-left {
+    float: left;
+}
+.lb-right {
+    float: right;
+}
+/* Komentar */
+.komentar-pengguna:nth-child(even) {
+    background: #eee;
+    border-radius: 10px;
+    padding: 10px;
+}
+.komentar-pengguna:nth-child(odd) {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.namakom {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.waktukom {
+    float: right;
+    padding-top: 5px;
+    font-style: italic;
+}
+.hr-kom {
+    border: solid 3px #333;
+}
+
+.form-kom {
+    margin-top: 1em;
+    width: 100%;
+}
+.form-kom input {
+    margin-bottom: 10px;
+}
+.form-kom button {
+    margin-top: 10px;
+}
+.form-kom table {
+    width: 100%;
+}
